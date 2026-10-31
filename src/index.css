@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@theme {
+  --color-ink: #202522;
+  --color-paper: #f6f4ec;
+  --color-paper-2: #efeddf;
+  --color-lime: #d8f36a;
+  --color-lime-dark: #c2dd4a;
+  --color-olive: #777f57;
+  --color-slate-cl: #6d7470;
+  --color-border-cl: #dcddd3;
+  --color-support: #477d69;
+  --color-contradict: #a95749;
+  --color-neutral-cl: #5a7188;
+  --font-serif: "Source Serif Pro", Georgia, "Times New Roman", serif;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Inter", "Segoe UI", system-ui, -apple-system, sans-serif;
+}
